@@ -16,8 +16,9 @@ class OddorEven
         {
                System.out.println("The number is invalid");
         }
-        {
          else if(x%2!=0)
+         {
              System.out.println("The number is odd");
        }
   }
+}
