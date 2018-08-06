@@ -1,4 +1,4 @@
-import java.io*;
+import java.io.*;
 import java.util.Scanner;
 class OddorEven
 {
@@ -8,7 +8,7 @@ class OddorEven
         System.out.println("Enter the number");
         Scanner n = new Scanner(System.in);
         x = n.nextInt();
-        if(x%==0)
+        if(x%2==0)
             System.out.println("The number is even");
          else
              System.out.println("The number is odd");
