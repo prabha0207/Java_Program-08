@@ -9,8 +9,15 @@ class OddorEven
         Scanner n = new Scanner(System.in);
         x = n.nextInt();
         if(x%2==0)
+        {
             System.out.println("The number is even");
-         else
+        }
+        else if(x<0)
+        {
+               System.out.println("The number is invalid");
+        }
+        {
+         else if(x%2!=0)
              System.out.println("The number is odd");
        }
   }
